@@ -1,0 +1,23 @@
+{
+  "name": "pradnya-bapte-portfolio",
+  "version": "1.0.0",
+  "description": "Production-ready personal portfolio website for Pradnya Bapte - QA Engineer | Software Test Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File ./server.ps1",
+    "dev": "powershell -ExecutionPolicy Bypass -File ./server.ps1",
+    "build": "echo \"Production build ready. No compilation required for vanilla web assets.\""
+  },
+  "keywords": [
+    "qa-engineer",
+    "software-test-engineer",
+    "selenium",
+    "testng",
+    "portfolio",
+    "manual-testing",
+    "api-testing",
+    "mobile-testing"
+  ],
+  "author": "Pradnya Bapte <pradnyabapte98@gmail.com>",
+  "license": "MIT"
+}

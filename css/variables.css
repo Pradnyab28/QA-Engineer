@@ -1,0 +1,88 @@
+/* ==========================================================================
+   DESIGN TOKENS & SYSTEM VARIABLES
+   Portfolio of Pradnya Bapte - QA Engineer | Software Test Engineer
+   ========================================================================== */
+
+:root {
+  /* Core Color Palette (Strictly matching specified direction) */
+  --bg-primary: #08111F;
+  --bg-secondary: #0C1727;
+  --bg-card: #101E2F;
+  --bg-card-hover: #14253B;
+  --bg-card-active: #182C45;
+  --bg-elevated: #16283D;
+
+  /* Accent Colors */
+  --accent-teal: #5EE7D1;
+  --accent-teal-hover: #4ad4be;
+  --accent-teal-subtle: rgba(94, 231, 209, 0.12);
+  --accent-teal-glow: rgba(94, 231, 209, 0.25);
+  --accent-teal-border: rgba(94, 231, 209, 0.28);
+
+  /* Status & QA Indicator Colors */
+  --color-pass: #2DD4BF;
+  --color-pass-bg: rgba(45, 212, 191, 0.12);
+  --color-warning: #F59E0B;
+  --color-warning-bg: rgba(245, 158, 11, 0.12);
+  --color-info: #38BDF8;
+  --color-info-bg: rgba(56, 189, 248, 0.12);
+
+  /* Typography Colors */
+  --text-main: #EDF4F8;
+  --text-secondary: #AEBCCD;
+  --text-muted: #7E92A8;
+  --text-on-accent: #08111F;
+
+  /* Borders & Dividers */
+  --border-color: #1E3247;
+  --border-light: #2A4460;
+  --border-focus: #5EE7D1;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  /* Spacing */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  /* Layout Containers */
+  --max-width: 1240px;
+  --max-width-narrow: 880px;
+  --header-height: 72px;
+
+  /* Border Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 10px 30px -8px rgba(3, 8, 17, 0.65), 0 0 0 1px var(--border-color);
+  --shadow-card-hover: 0 16px 40px -10px rgba(3, 8, 17, 0.8), 0 0 0 1px var(--accent-teal-border);
+  --shadow-glow: 0 0 20px rgba(94, 231, 209, 0.15);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-base: 250ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Z-Index Hierarchy */
+  --z-base: 1;
+  --z-card: 5;
+  --z-sticky: 100;
+  --z-nav: 200;
+  --z-modal: 500;
+  --z-toast: 1000;
+}
